@@ -1,0 +1,39 @@
+# Compilados de Java y Maven
+target/
+*.class
+*.war
+*.jar
+*.ear
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs y Entornos de Desarrollo
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+
+# Variables de entorno y credenciales sensibles
+.env
+.env.*
+!.env.example
+*secret*
+*credentials*
+
+# Persistencia en disco local, binarios, backups y logs
+src/data/
+src/main/java/data/CopiasDeSeguridad/*.bin
+src/main/java/data/Log/*.txt
+*.bin
+*.log
+*.sql
+*.dump
+*.zip
+*.pdf
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
